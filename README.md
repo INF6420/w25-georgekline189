@@ -6,7 +6,7 @@ A portfolio site with examples of my work and info about me.
 
 In order to start brainstorming and laying out the website, here are a few wireframes showing important pages and potential layouts.
 
-![Wireframe of Landing Page](wireframes\wireframeMain.jpg)
+![Wireframe of Landing Page](wireframes/wireframeMain.jpg)
 
 Header: will consist of site title, navigation menu, and links to About page and Contact page.
 
@@ -20,7 +20,7 @@ List of posts: introduces other pages or items without needing to decide to clic
 
 Footer: will include links to other key pages and an option to return to top of page.
 
-![Wireframe of About Page](wireframes\wireframeAbout.jpg)
+![Wireframe of About Page](wireframes/wireframeAbout.jpg)
 
 Header: will be the same as the header for the main page, but replacing the link to the About page with a link to the home page.
 
@@ -36,7 +36,7 @@ Personal: some information about me, attempt to connect while remaining professi
 
 Footer: will have links to the home page, Contact page, possibly a form to leave feedback, back to top of page.
 
-![Wireframe of Contact Page](wireframes\wireframeContact.jpg)
+![Wireframe of Contact Page](wireframes/wireframeContact.jpg)
 
 Header: will be the same as the header for the main page, but replacing the link to the Contact page with a link to the home page.
 
