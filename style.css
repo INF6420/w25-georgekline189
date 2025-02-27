@@ -1,0 +1,116 @@
+/* General section*/
+* {box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+    background-color: #ebf4ff;
+    color: #B53000 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+a {
+    color: #B53000 ;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header section */
+header {
+    background-color: #0078A8 ;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+ul li a, a {
+   font-size: 20px;
+}
+.logo {
+    height: 100px;
+}
+
+/* Main content section */
+.main-content {
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.picture {
+    max-width: 100%;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    font-size: 8px;
+    right: 0;
+}
+
+.list1 {
+    list-style-type: square;
+    text-indent: 7%;
+}
+
+.para1 {
+    text-indent:7%;
+}
+
+.address {
+    text-indent: 7%;
+}
+.contact {
+    color: darkblue;
+    text-indent: 7%;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0078A8 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin: auto;
+}
+
+footer div {
+    margin: 5px 0;
+}
+
+footer a {
+    font-size: 16px;
+}
