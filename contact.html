@@ -20,8 +20,31 @@
     <main class="main-content">
         <div>
             <h1>Contact</h1>
-            <h2 class="address">Email address:</h2>
+            <h3 class="address">Email address:</h3>
             <p class="contact">georgekline189@gmail.com</p>
+        </div>
+        <div>
+            <form
+            action="https://formspree.io/f/xkgjpolw"
+            method="POST"
+            class="validate"
+            >
+                <label>
+                  Your Name:
+                  <input type="name" name="name" class="form-input" required>
+              
+                </label>
+                <label>
+                  Your email:
+                  <input type="email" name="email" class="form-input" required>
+                </label>
+                <label>
+                  Your message:
+                  <textarea name="message" class="form-input" rows="4" required> </textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" class="form-input">Finish and Submit Form</button>
+            </form>
         </div>
     </main>
     <footer>
@@ -29,5 +52,6 @@
         <div><a href="about.html">About</a></div>
         <div><a href="contact.html">Contact</a></div>
     </footer>
+    <script src="script.js"> </script>
 </body>
 </html>
